@@ -1,0 +1,54 @@
+
+form {
+    
+}
+ 
+label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+}
+ 
+
+ 
+
+.Form_Content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 5em;
+
+}
+
+.Entry{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 2em;
+}
+.float_side{
+    display: grid;
+    grid-template-columns: 300px,1fr;
+    padding: 2em;
+}
+.entry label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+}
+
+button{
+padding: 2px;
+}
+table{
+
+}
+th{
+
+    text-align: left;
+    padding: 0 3rem 1rem 0;
+}
+.TR_Header{
+    border-bottom: solid thin; 
+    border-color: grey;
+}
+tr:nth-child(3) { border: solid thin; 
+    border-color: grey;}
