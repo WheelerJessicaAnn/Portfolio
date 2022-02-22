@@ -147,6 +147,8 @@
       }
       .img__wrap img{
         object-fit: fill;
+        margin: auto;
+     
       }
       
     .img__description {
