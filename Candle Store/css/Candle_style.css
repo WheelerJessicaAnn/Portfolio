@@ -18,7 +18,7 @@
     
     }
     body{
-        background: lightgray;
+        background: whitesmoke;
     }
 
     .Title_Banner {
@@ -28,6 +28,7 @@
         font-family: var();
         color: whitesmoke;
         font-size: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
       .slides{
         position: fixed;
@@ -122,10 +123,56 @@
         to {opacity: 1}
       }
 
+    .My-Reviews{
+
+      
+      max-width: 100%;
+      text-align:center;
+     
+   
+  }
+  .section__title--My-Reviews{
+      color:var(--clr-dark);
+      position:relative;
+      font-style: italic;
+  }
+  .section__title--My-Reviews::after{
+      content:'';
+      display:block;
+      width: 3em;
+      height:2px;
+      margin: 0.5em auto 1em;
+      background:var(--clr-dark);
+      opacity:0.5;
+  }
+  .Review_Item{
+  max-width:500px;
+  margin:0 auto;
+  background:var(--clr-bg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Review_Signature{
+    font-style: italic;
+  }
+
+  @media (min-width:800px){
+    .Reviews{
+    display:flex;
+    max-width: 1200px;
+    margin:0 auto;
+    }
+    
+    .Review + .Review{
+        margin-left:2em;
+    
+    }
+    }
+
       .my-collections{
         background-color: var(--clr-subaccent);
         color:whitesmoke;
         text-align:center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .my-collections h2{
         padding:1em;
